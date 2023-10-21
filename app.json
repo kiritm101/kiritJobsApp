@@ -4,10 +4,15 @@
     "web": {
       "bundler": "metro"
     },
-    "plugins": [
-      "expo-router"
-    ],
     "name": "kiritJobsApp",
-    "slug": "kiritJobsApp"
+    "slug": "kiritJobsApp",
+    "extra": {
+      "eas": {
+        "projectId": "a88d9951-b198-4c10-8899-407d26e17b0d"
+      }
+    },
+    "android": {
+      "package": "com.kishore4102.kiritJobsApp"
+    }
   }
 }
